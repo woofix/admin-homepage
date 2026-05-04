@@ -1,0 +1,12 @@
+services:
+  homepage-admin:
+    build: .
+    container_name: homepage-admin
+    ports:
+      - "192.168.1.1:8099:8099"
+    volumes:
+      - /srv/7To/Docker/homepage/config:/homepage-config
+    environment:
+      - ADMIN_USER=admin
+      - ADMIN_PASS=change-moi
+    restart: unless-stopped

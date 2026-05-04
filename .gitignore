@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp / backups
+*.swp
+*.bak
+*~
+
+# Homepage config (si local spécifique)
+homepage-config/

@@ -2,6 +2,8 @@
 
 Simple web interface to manage and edit Homepage configuration without using YAML files.
 
+Homepage official website: [Homepage](https://gethomepage.dev/?utm_source=chatgpt.com)
+
 ## Features
 
 - Edit Homepage configuration files (services, widgets, layout)
@@ -10,7 +12,7 @@ Simple web interface to manage and edit Homepage configuration without using YAM
 - Lightweight and fast web UI
 - No SSH or manual YAML editing required
 
-## Requirements
+## Requirements 
 
 - Docker
 - Homepage already installed and running
